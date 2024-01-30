@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T15:53:05.622Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="H5_d_A_MVtglzZEPQKIM" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T15:55:50.373Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="E8TT446jiO0gFSHju2an" version="23.0.2" type="github">
   <diagram name="Page-1" id="F8i0XYkKbsZzf8Jhvdap">
     <mxGraphModel dx="2799" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -564,6 +564,21 @@
         </mxCell>
         <mxCell id="VGWx3QQJK4gStQbawpVH-70" value="kobuki_ros_interfaces/msg/VersionInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="845" y="990" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-71" value="std_msgs/msg/String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="710" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-72" value="sensor_msgs/msg/JointState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="990" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-73" value="sensor_msgs/msg/LaserScan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-74" value="sensor_msgs/msg/LaserScan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="245" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-75" value="tf2_msgs/msg/TFMessage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="360" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
