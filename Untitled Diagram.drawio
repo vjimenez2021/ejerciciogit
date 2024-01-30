@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T15:45:41.441Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="2OjTr9s4OVjn2asDPp1t" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T15:53:05.622Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="H5_d_A_MVtglzZEPQKIM" version="23.0.2" type="github">
   <diagram name="Page-1" id="F8i0XYkKbsZzf8Jhvdap">
     <mxGraphModel dx="2799" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
         <mxCell id="hbKBDw81QgxX0EWuq3vY-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hbKBDw81QgxX0EWuq3vY-6" target="hbKBDw81QgxX0EWuq3vY-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hbKBDw81QgxX0EWuq3vY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hbKBDw81QgxX0EWuq3vY-6" target="hbKBDw81QgxX0EWuq3vY-67" edge="1">
+        <mxCell id="hbKBDw81QgxX0EWuq3vY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VGWx3QQJK4gStQbawpVH-47" target="hbKBDw81QgxX0EWuq3vY-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-140" y="720" />
@@ -494,6 +494,76 @@
         </mxCell>
         <mxCell id="VGWx3QQJK4gStQbawpVH-46" value="rcl_interfaces/msg/Log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-265" y="910" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hbKBDw81QgxX0EWuq3vY-6" target="VGWx3QQJK4gStQbawpVH-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-140" y="510" as="sourcePoint" />
+            <mxPoint x="730" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-47" value="kobuki_ros_interfaces/msg/ControllerInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="700" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-49" value="std_msgs/msg/Int16MultiArray" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-51" value="std_msgs/msg/String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="220" y="700" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-52" value="std_msgs/msg/String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-53" value="diagnostic_msgs/msg/DiagnosticArray" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="475" y="700" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-54" value="kobuki_ros_interfaces/msg/BumperEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="820" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-55" value="kobuki_ros_interfaces/msg/ButtonEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="115" y="740" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-56" value="kobuki_ros_interfaces/msg/CliffEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="270" y="820" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-57" value="kobuki_ros_interfaces/msg/DigitalInputEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="405" y="740" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-58" value="kobuki_ros_interfaces/msg/PowerSystemEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="535" y="820" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-59" value="kobuki_ros_interfaces/msg/RobotStateEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="20" y="960" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-61" value="kobuki_ros_interfaces/msg/WheelDropEvent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="150" y="880" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-62" value="sensor_msgs/msg/JointState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="350" y="960" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-63" value="nav_msgs/msg/Odometry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="500" y="880" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-64" value="sensor_msgs/msg/BatteryState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="635" y="960" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-65" value="kobuki_ros_interfaces/msg/SensorState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1070" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-66" value="kobuki_ros_interfaces/msg/DockInfraRed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="245" y="990" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-67" value="sensor_msgs/msg/Imu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1070" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-68" value="sensor_msgs/msg/Imu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="585" y="990" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-69" value="tf2_msgs/msg/TFMessage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1070" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGWx3QQJK4gStQbawpVH-70" value="kobuki_ros_interfaces/msg/VersionInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="845" y="990" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
